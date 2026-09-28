@@ -1,25 +1,25 @@
 class Terramantle < Formula
   desc "Terramantle CLI — discover the registry, push provider lock files, operate state."
   homepage "https://terramantle.dev"
-  version "0.3.0"
+  version "0.4.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/terramantle/terramantle-cli/releases/download/v0.3.0/cli-aarch64-apple-darwin.tar.xz"
-      sha256 "b9d83eeffbc716249d1a6241aa69a0a8591ee3a24b20f4536df925124d9f327d"
+      url "https://github.com/terramantle/terramantle-cli/releases/download/v0.4.0/cli-aarch64-apple-darwin.tar.xz"
+      sha256 "a9aeeebc1be82abf40e8c4620d904a7f5ea516d5787f840d318c4d451922d379"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/terramantle/terramantle-cli/releases/download/v0.3.0/cli-x86_64-apple-darwin.tar.xz"
-      sha256 "b41f62e23b1cf9e0e49004e3f98f6be2c5d8fdc5127de9445b3c4a668e78767d"
+      url "https://github.com/terramantle/terramantle-cli/releases/download/v0.4.0/cli-x86_64-apple-darwin.tar.xz"
+      sha256 "84f1fca7920458e0ba6de89ae4568ad2624a906a754804f7fd7190b5bca25b29"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/terramantle/terramantle-cli/releases/download/v0.3.0/cli-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "a8bf8b9df69ba8f5ed3a59362926db645535c71b6fbd3b7ddeb397e03d2ec56f"
+      url "https://github.com/terramantle/terramantle-cli/releases/download/v0.4.0/cli-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "d180a997ed913c33a039acccf02055bd745a31e307771d13cbb906dc9a90f33a"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/terramantle/terramantle-cli/releases/download/v0.3.0/cli-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "060b9882baef3ce6068bfafaef5af2de041ddb82eac9b35aaca2f640a8bc3e41"
+      url "https://github.com/terramantle/terramantle-cli/releases/download/v0.4.0/cli-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "c22c29dff68981bdccb4fa45d9af14d8876e984b7ae1ee52244da946b9a85253"
     end
   end
   license "MIT"
